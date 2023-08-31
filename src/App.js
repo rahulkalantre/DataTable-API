@@ -8,6 +8,8 @@ function App() {
 
   const [users, setUsers] = useState([]);
 
+  
+
   const fetchUsers = async (url) => {
     try {
       const res = await fetch(url);
@@ -38,7 +40,7 @@ function App() {
             <th> Id </th>
             <th> Title </th>
             <th> Completed </th>
-            
+
           </tr>
         </thead>
       </table>
